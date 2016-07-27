@@ -26,6 +26,7 @@ namespace Curs3
                 fo.AddCustomer("zzz", "123");
             }
 
+
             var Userimm = new IMM("Gigi");
             var UserFiz = new PersoanaFizica("George");
             UserFiz.Id = "Geo";
