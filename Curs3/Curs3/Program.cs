@@ -30,6 +30,7 @@ namespace Curs3
             var UserFiz = new PersoanaFizica("George");
             UserFiz.Id = "Geo";
             UserFiz.CreazaCard();
+
         }
     }
 }
