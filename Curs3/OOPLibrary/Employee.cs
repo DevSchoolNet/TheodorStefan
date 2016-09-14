@@ -5,11 +5,23 @@ using System.Text;
 
 namespace OOPLibrary
 {
-    public class Employee : User, IEmployee
+    public class Employee : IEmployee,IUser
     {
-        public Employee(string Name) : base(Name)
-        {
+        public string Email { get; set; }
+        public string UserName { get; }
+        public string Password { get; }
+        public string _Name { get; set; }
 
+
+        public void Logout()
+        {
+            Console.WriteLine("userul s-a deconectat");
+        }
+
+        public Employee(string Name,string id)
+        {
+            this._Name = Name;
+            this.Id = id;
         }
         
         public int Wage
@@ -48,9 +60,9 @@ namespace OOPLibrary
             }
         }
 
-        public override void Login(string Id, string Password)
+        public virtual void Login(string _Name, string Password)
         {
-            throw new System.NotImplementedException();
+           Console.WriteLine("Angajatul cu numele {0} si cu id-ul: {1} tocmai s-a logat ",_Name,Id);
         }
     }
 }

@@ -3,7 +3,7 @@
   <Class Name="OOPLibrary.User">
     <Position X="1" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>IAAAAAAAACAAAAAAAAAAAAIAAAAAAAACAQAQAgAAAAA=</HashCode>
+      <HashCode>IAAAAAAAACAAAAAAAAAAAAIAAAAAAAACAQAQAAAAAAA=</HashCode>
       <FileName>User.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -11,7 +11,7 @@
   <Class Name="OOPLibrary.Employee">
     <Position X="9.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAEAAAAAAAAAAAACAAAAAAQAAAAAAA=</HashCode>
+      <HashCode>AAACAAAAACAAAAAEAAAAIAIAAAAACAACAQAQAAAAAAA=</HashCode>
       <FileName>Employee.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -35,35 +35,36 @@
   <Class Name="OOPLibrary.Client">
     <Position X="4" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <HashCode>AAACIAAAACAAAAAAAAAAAAIAAAAAAAACAQAQAAAAAAA=</HashCode>
       <FileName>Client.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="OOPLibrary.PersoanaFizica">
     <Position X="3" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAAQAAAAAAA=</HashCode>
       <FileName>PersoanaFizica.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OOPLibrary.PersoanaJuridica">
     <Position X="5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAIA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAQAAAQAAAAAIA=</HashCode>
       <FileName>PersoanaJuridica.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OOPLibrary.IMM">
     <Position X="3.5" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
       <FileName>IMM.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OOPLibrary.IntreprindereMare">
     <Position X="6.25" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ACAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>ACAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
       <FileName>IntreprindereMare.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />

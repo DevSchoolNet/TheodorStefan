@@ -7,7 +7,7 @@ namespace OOPLibrary
 {
     public class IntreprindereMare : PersoanaJuridica,IBackOffice
     {
-        public IntreprindereMare(string Name) : base(Name)
+        public IntreprindereMare(string Name,string id) : base(Name,id)
         {
         }
 
@@ -19,6 +19,11 @@ namespace OOPLibrary
         public void SendNotifications(string CNP)
         {
             throw new NotImplementedException();
+        }
+
+        public override void Login(string Name, string Password)
+        {
+            Console.WriteLine("Clientul de tipul {0} tocmai s-a logat", this.GetType());
         }
     }
 }

@@ -21,12 +21,17 @@ namespace OOPLibrary
             }
         }
 
-        public PersoanaJuridica(string Name) : base(Name)
+        public PersoanaJuridica(string Name,string Id) : base(Name,Id)
         {
         }
         public void CreazaCard(String Id)
         {
             Console.WriteLine("Am creat card pt id-ul " + Id);
+        }
+
+        public override void Login(string Name, string Password)
+        {
+            Console.WriteLine("Clientul de tipul {0} tocmai s-a logat", this.GetType());
         }
     }
 }

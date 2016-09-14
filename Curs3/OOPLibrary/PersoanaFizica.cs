@@ -9,7 +9,7 @@ namespace OOPLibrary
     {
 
         
-        public PersoanaFizica(string Name) : base(Name)
+        public PersoanaFizica(string Name,string Id):base(Name,Id)
         {
         }
 
@@ -29,6 +29,10 @@ namespace OOPLibrary
         {
             Console.WriteLine("S-a creat un card pentru id-ul " + this.Id);
         }
-       
+
+        public override void Login(string Name, string Password)
+        {
+            Console.WriteLine("Clientul de tipul {0} tocmai s-a logat",this.GetType());
+        }
     }
 }

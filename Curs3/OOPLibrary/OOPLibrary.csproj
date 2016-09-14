@@ -51,6 +51,7 @@
     <Compile Include="IMM.cs" />
     <Compile Include="IntreprindereMare.cs" />
     <Compile Include="IUser.cs" />
+    <Compile Include="LoginHandler.cs" />
     <Compile Include="MetaUser.cs" />
     <Compile Include="PersoanaFizica.cs" />
     <Compile Include="PersoanaJuridica.cs" />

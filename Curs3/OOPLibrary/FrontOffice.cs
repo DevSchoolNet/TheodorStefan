@@ -7,7 +7,7 @@ namespace OOPLibrary
 {
     public class FrontOffice : Employee, IFrontOffice
     {
-        public FrontOffice(string Name) : base(Name)
+        public FrontOffice(string Name,string id) : base(Name,id)
         {
         }
 
@@ -19,6 +19,11 @@ namespace OOPLibrary
         public bool OpenRelation(string Name, string CNP)
         {
             throw new System.NotImplementedException();
+        }
+
+        public override void Login(string _Name, string Password)
+        {
+           Console.WriteLine("Angajatul de tipul {0} tocmai s-a logat",this.GetType());
         }
     }
 }

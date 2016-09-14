@@ -9,19 +9,7 @@ namespace OOPLibrary
     {
         public string UserName { get; private set; }
 
-        private string password;
-        protected internal string Password
-        {
-            get
-            {
-                return password;
-            }
-
-            set
-            {
-                this.password = value;
-            }
-        }
+        
 
         public string Email
         {
@@ -33,6 +21,11 @@ namespace OOPLibrary
             set
             {
             }
+        }
+
+        public string Password
+        {
+            get { return this.Password; }
         }
 
         private static int users = 0;
@@ -48,9 +41,9 @@ namespace OOPLibrary
             users--;
         }
 
-        public virtual void Login(string Name, string Password)
+        public virtual void Login(string UserName, string Password)
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("user-ul s-a logat");
         }
 
         public void Logout()
