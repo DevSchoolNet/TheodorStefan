@@ -7,6 +7,7 @@ namespace OOPLibrary
 {
     public class Employee : IEmployee,IUser
     {
+
         public string Email { get; set; }
         public string UserName { get; }
         public string Password { get; }

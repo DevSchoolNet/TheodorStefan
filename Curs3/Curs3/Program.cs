@@ -41,6 +41,7 @@ namespace Curs3
             log.LoginAction(User2);
 
 
+
         }
     }
 }
