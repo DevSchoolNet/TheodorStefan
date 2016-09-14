@@ -33,6 +33,7 @@ namespace Curs3
             UserFiz.Id = "Geo";
             UserFiz.CreazaCard();
 
+            //Testing the dependency
             LoginHandler log = new LoginHandler();
             
             log.LoginAction(UserFiz);
